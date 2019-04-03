@@ -143,9 +143,9 @@
 
     figure.button:hover
     {
-        background:                     #e30613;
+        background:                     #2eb7d3;
         color:                          #ffffff;
-        border:                         1px solid #8a0d14;
+        border:                         1px solid #202020;
     }
 
     h1,
@@ -163,7 +163,7 @@
 
     h1
     {
-        color:                          #e30613;
+        color:                          #2eb7d3;
         margin:                         0;
     }
 
@@ -189,6 +189,12 @@
     }
 
     i.fa-github
+    {
+        font-size:                      80px;
+        margin:                         18px 0 0 0;
+    }
+
+    i.fa-facebook-square
     {
         font-size:                      80px;
         margin:                         18px 0 0 0;
