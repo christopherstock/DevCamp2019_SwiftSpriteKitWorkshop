@@ -86,7 +86,6 @@
 		68AF7D06887ABEC083444DB4 /* stone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone3.png; sourceTree = "<group>"; };
 		68AF7DCBEE2A7207F06CFB84 /* foreground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreground.png; sourceTree = "<group>"; };
 		68AF7EEC912DBE1EF99E3184 /* ice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice1.png; sourceTree = "<group>"; };
-		E995A72A2254A974004F6C54 /* DevCamp2019_SwiftSpriteKitWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevCamp2019_SwiftSpriteKitWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E995A72D2254A974004F6C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E995A72F2254A974004F6C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E995A7312254A975004F6C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -239,7 +238,6 @@
 		E995A72B2254A974004F6C54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E995A72A2254A974004F6C54 /* DevCamp2019_SwiftSpriteKitWorkshop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,7 +274,6 @@
 			);
 			name = DevCamp2019_SwiftSpriteKitWorkshop;
 			productName = DevCamp2019_SwiftSpriteKitWorkshop;
-			productReference = E995A72A2254A974004F6C54 /* DevCamp2019_SwiftSpriteKitWorkshop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
