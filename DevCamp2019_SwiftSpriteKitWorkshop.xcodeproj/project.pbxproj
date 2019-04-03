@@ -42,6 +42,7 @@
 		68AF7CA50CBEC658E358736E /* walkLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AF766EB831A624A36BC655 /* walkLeft.png */; };
 		68AF7CB5E971CB2042422D29 /* ice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AF7EEC912DBE1EF99E3184 /* ice1.png */; };
 		68AF7D6DA2341BB1C6A65557 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AF756090286E1D14EC2367 /* ground.png */; };
+		68AF7F3BFE37DFB1AFCA8353 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 68AF7B01F83BFCA1C6BCD21F /* README.md */; };
 		E995A72E2254A974004F6C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995A72D2254A974004F6C54 /* AppDelegate.swift */; };
 		E995A7302254A974004F6C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995A72F2254A974004F6C54 /* ViewController.swift */; };
 		E995A7322254A975004F6C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E995A7312254A975004F6C54 /* Assets.xcassets */; };
@@ -75,6 +76,7 @@
 		68AF797AE262983BCC10B0DC /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		68AF797ED576EA3246924BE1 /* ice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice2.png; sourceTree = "<group>"; };
 		68AF7AC372C753F3610B129B /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		68AF7B01F83BFCA1C6BCD21F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		68AF7B53A567E77C9EAEC227 /* ice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice3.png; sourceTree = "<group>"; };
 		68AF7BAFA14F2460A7784620 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		68AF7C512901C201862B03FE /* stone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone2.png; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 			children = (
 				E995A72C2254A974004F6C54 /* DevCamp2019_SwiftSpriteKitWorkshop */,
 				E995A72B2254A974004F6C54 /* Products */,
+				68AF7B01F83BFCA1C6BCD21F /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -363,6 +366,7 @@
 				68AF72B9BA3176A979846CCE /* GameLoop.swift in Sources */,
 				68AF7ACE6780062844DB6C9F /* KeySystem.swift in Sources */,
 				68AF72A5E53E5D0A3DA5733E /* Workshop.swift in Sources */,
+				68AF7F3BFE37DFB1AFCA8353 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

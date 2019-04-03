@@ -1,4 +1,4 @@
-### Developer Camp 2019, Swift / Apple SpriteKit Workshop, v.1.0.0, (c) 2019 Mayflower GmbH
+### Developer Camp 2019 - Swift / SpriteKit Workshop, v.1.0.0, (c) 2019 Mayflower GmbH
 
 A joyride with Swift and the Apple SpriteKit framework.
 
@@ -20,4 +20,3 @@ The game sprites have been taken from the following free game asset sites:
 
 - https://www.itch.io
 - https://www.opengameart.org
-
