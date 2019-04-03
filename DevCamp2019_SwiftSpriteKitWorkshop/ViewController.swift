@@ -1,27 +1,33 @@
-//
-//  ViewController.swift
-//  DevCamp2019_SwiftSpriteKitWorkshop
-//
-//  Created by Christopher Stock on 03.04.19.
-//  Copyright © 2019 Mayflower GmbH. All rights reserved.
-//
 
-import Cocoa
+    import Cocoa
+    import SpriteKit
+    import Foundation
 
-class ViewController: NSViewController {
+    /**
+        The native ViewController.
+    */
+    class ViewController : NSViewController
+    {
+        /**
+            Being invoked after the view has been loaded.
+            Sets up the view after being loaded.
+        */
+        override func viewDidLoad() -> Void
+        {
+            super.viewDidLoad()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+            let workshop = Workshop();
+            workshop.appendWorkshopView( to: self.view )
+        }
 
-        // Do any additional setup after loading the view.
-    }
+        /**
+            Being invoked after the view has appeared on the screen.
+        */
+        override func viewDidAppear() -> Void
+        {
+            super.viewDidAppear()
 
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
+            self.view.window?.styleMask.remove( .resizable )
+            self.view.window?.title = "SwiftSpriteKitWorkshop, v.1.0.0, (c) 2019 Mayflower GmbH"
         }
     }
-
-
-}
-

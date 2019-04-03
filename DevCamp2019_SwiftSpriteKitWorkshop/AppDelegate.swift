@@ -1,26 +1,39 @@
-//
-//  AppDelegate.swift
-//  DevCamp2019_SwiftSpriteKitWorkshop
-//
-//  Created by Christopher Stock on 03.04.19.
-//  Copyright © 2019 Mayflower GmbH. All rights reserved.
-//
 
-import Cocoa
+    import Cocoa
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+    /**
+        The native application delegate.
+    */
+    @NSApplicationMain
+    class AppDelegate: NSObject, NSApplicationDelegate
+    {
+        /**
+            Being invoked when the application finished launching.
 
+            - parameter notification: The notification for this event with extra data.
+        */
+        func applicationDidFinishLaunching( _ notification:Notification ) -> Void
+        {
+            // set app icon
+            NSApplication.shared.applicationIconImage = NSImage( named: "icon.png" )
+        }
 
+        /**
+            Being invoked before the application will tear down.
 
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+            - parameter notification: The notification for this event with extra data.
+        */
+        func applicationWillTerminate( _ notification:Notification ) -> Void
+        {
+        }
+
+        /**
+            Determines if the application shall be closed when the last visible app window was closed.
+
+            - returns: *true* if the app should close on closing the last app window. Otherwise *false*
+        */
+        func applicationShouldTerminateAfterLastWindowClosed( _ application:NSApplication ) -> Bool
+        {
+            return true
+        }
     }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-
-}
-
