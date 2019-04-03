@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E995A7292254A974004F6C54"
-               BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop"
+               BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop.app"
                BlueprintName = "DevCamp2019_SwiftSpriteKitWorkshop"
                ReferencedContainer = "container:DevCamp2019_SwiftSpriteKitWorkshop.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E995A7292254A974004F6C54"
-            BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop"
+            BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop.app"
             BlueprintName = "DevCamp2019_SwiftSpriteKitWorkshop"
             ReferencedContainer = "container:DevCamp2019_SwiftSpriteKitWorkshop.xcodeproj">
          </BuildableReference>

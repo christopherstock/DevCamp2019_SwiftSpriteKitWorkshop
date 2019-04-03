@@ -2,7 +2,7 @@
 
 A joyride with Swift and the Apple SpriteKit framework.
 
-![Cover](https://github.com/christopherstock/DevCamp2019_SwiftSpriteKitWorkshop/raw/master/welcome-page/res/image/screenshot1.png)
+![Cover](https://github.com/christopherstock/DevCamp2019_SwiftSpriteKitWorkshop/raw/master/welcome-page/res/image/screenshot_1200x628.png)
 
 ### Techstack
 
