@@ -8,6 +8,9 @@
     */
     class ViewController : NSViewController
     {
+        /** The application title. */
+        let APP_TITLE = "Developer Camp 2019 - Swift / SpriteKit Workshop, v.1.0.0, (c) 2019 Mayflower GmbH"
+
         /**
             Being invoked after the view has been loaded.
             Sets up the view after being loaded.
@@ -28,6 +31,6 @@
             super.viewDidAppear()
 
             self.view.window?.styleMask.remove( .resizable )
-            self.view.window?.title = "SwiftSpriteKitWorkshop, v.1.0.0, (c) 2019 Mayflower GmbH"
+            self.view.window?.title = APP_TITLE
         }
     }
