@@ -9,19 +9,23 @@
     {
         /** The custom implementation of the SpriteKit scene. */
         var scene     :Scene
-        /** The game level instance. */
-        var level     :Level
         /** The key system. */
         var keySystem :KeySystem
+        /** The game level instance. */
+        var level     :Level
 
         /**
             Creates a new game workshop instance.
+
+            - parameter appendTo: The native view to append the workshop game view to.
         */
-        init()
+        init( appendTo viewHost: NSView )
         {
             scene     = Scene()
-            level     = Level( scene: scene )
             keySystem = KeySystem()
+            level     = Level( scene: scene )
+
+            appendWorkshopView( to: viewHost )
 
             scene.setGameLoop( self )
         }
@@ -32,7 +36,7 @@
 
             - parameter to: The native view to append the workshop game view to.
         */
-        func appendWorkshopView(to view: NSView )
+        private func appendWorkshopView( to view: NSView )
         {
             view.addSubview( scene.skView )
             view.setFrameSize( scene.skView.frame.size )

@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E995A7292254A974004F6C54"
-               BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop.app"
+               BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop"
                BlueprintName = "DevCamp2019_SwiftSpriteKitWorkshop"
                ReferencedContainer = "container:DevCamp2019_SwiftSpriteKitWorkshop.xcodeproj">
             </BuildableReference>
@@ -41,16 +41,19 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <PathRunnable
+         runnableDebuggingMode = "0"
+         FilePath = "/Users/stock/Library/Developer/Xcode/DerivedData/DevCamp2019_SwiftSpriteKitWorkshop-bzkvnhfbgxlldpgewbjofiacwgsv/Build/Products/Debug/DevCamp2019_SwiftSpriteKitWorkshop.app">
+      </PathRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E995A7292254A974004F6C54"
-            BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop.app"
+            BuildableName = "DevCamp2019_SwiftSpriteKitWorkshop"
             BlueprintName = "DevCamp2019_SwiftSpriteKitWorkshop"
             ReferencedContainer = "container:DevCamp2019_SwiftSpriteKitWorkshop.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
       <LocationScenarioReference
