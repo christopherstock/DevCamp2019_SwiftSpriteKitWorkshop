@@ -53,6 +53,8 @@
 
             node.physicsBody?.isDynamic   = physic.isDynamic
 
+//            node.physicsBody?.affectedByGravity = false
+
             node.physicsBody?.mass        = physic.mass
             node.physicsBody?.restitution = physic.restitution
             node.physicsBody?.friction    = physic.friction

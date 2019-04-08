@@ -35,6 +35,7 @@
 
             addChild( skCamera )
             self.camera = skCamera
+
             constraintCamera()
         }
 
