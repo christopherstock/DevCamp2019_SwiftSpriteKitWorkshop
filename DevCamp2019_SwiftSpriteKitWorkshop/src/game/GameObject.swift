@@ -72,7 +72,7 @@
         {
             guard let physicsBody = node.physicsBody else { return false }
 
-            let RESTING_TOLERANCE:CGFloat = 0.5
+            let RESTING_TOLERANCE:CGFloat = 1.0
 
             return (
                 physicsBody.velocity.dy <= RESTING_TOLERANCE

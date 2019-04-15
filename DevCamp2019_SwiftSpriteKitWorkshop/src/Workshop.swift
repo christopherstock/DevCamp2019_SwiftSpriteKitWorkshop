@@ -16,16 +16,12 @@
 
         /**
             Creates a new game workshop instance.
-
-            - parameter appendTo: The native view to append the workshop game view to.
         */
-        init( appendTo viewHost: NSView )
+        init()
         {
             scene     = Scene()
             keySystem = KeySystem()
             level     = Level( scene: scene )
-
-            appendWorkshopView( to: viewHost )
 
             scene.setGameLoop( self )
         }
@@ -36,7 +32,7 @@
 
             - parameter to: The native view to append the workshop game view to.
         */
-        private func appendWorkshopView( to view: NSView )
+        func appendWorkshopView( to view: NSView )
         {
             view.addSubview( scene.skView )
             view.setFrameSize( scene.skView.frame.size )

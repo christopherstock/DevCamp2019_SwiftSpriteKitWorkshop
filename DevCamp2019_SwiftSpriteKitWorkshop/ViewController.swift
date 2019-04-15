@@ -19,7 +19,8 @@
         {
             super.viewDidLoad()
 
-            let workshop = Workshop( appendTo: self.view );
+            let workshop = Workshop();
+            workshop.appendWorkshopView( to: self.view )
         }
 
         /**
