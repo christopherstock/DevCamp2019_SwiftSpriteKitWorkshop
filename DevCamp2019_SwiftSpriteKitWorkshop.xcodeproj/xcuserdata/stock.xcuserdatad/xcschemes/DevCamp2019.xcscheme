@@ -43,6 +43,7 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
+         BundleIdentifier = "de.mayflower.swiftworkshop.DevCamp2019-SwiftSpriteKitWorkshop"
          FilePath = "/Users/stock/Library/Developer/Xcode/DerivedData/DevCamp2019_SwiftSpriteKitWorkshop-bzkvnhfbgxlldpgewbjofiacwgsv/Build/Products/Debug/DevCamp2019_SwiftSpriteKitWorkshop.app">
       </PathRunnable>
       <MacroExpansion>
