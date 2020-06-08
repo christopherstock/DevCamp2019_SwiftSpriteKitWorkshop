@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+   LastUpgradeVersion = "1120"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -28,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -43,7 +42,6 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
-         BundleIdentifier = "de.mayflower.swiftworkshop.DevCamp2019-SwiftSpriteKitWorkshop"
          FilePath = "/Users/stock/Library/Developer/Xcode/DerivedData/DevCamp2019_SwiftSpriteKitWorkshop-bzkvnhfbgxlldpgewbjofiacwgsv/Build/Products/Debug/DevCamp2019_SwiftSpriteKitWorkshop.app">
       </PathRunnable>
       <MacroExpansion>
@@ -55,8 +53,6 @@
             ReferencedContainer = "container:DevCamp2019_SwiftSpriteKitWorkshop.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
       <LocationScenarioReference
          identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
          referenceType = "1">
