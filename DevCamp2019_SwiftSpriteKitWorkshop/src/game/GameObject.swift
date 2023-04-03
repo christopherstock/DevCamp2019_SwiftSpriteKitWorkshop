@@ -21,7 +21,7 @@
         init( scene: SKScene, x: CGFloat, y: CGFloat, imageFile: String, physic: Physic )
         {
             // load image file
-            let image   = NSImage( named: imageFile )!
+            let image   = NSImage( named: NSImage.Name( imageFile ) )!
             let texture = SKTexture( image: image )
 
             // create SpriteKit node

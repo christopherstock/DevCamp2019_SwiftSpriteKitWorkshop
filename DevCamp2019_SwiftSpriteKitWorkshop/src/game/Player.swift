@@ -33,8 +33,8 @@
         */
         init( scene: SKScene, x: CGFloat, y: CGFloat )
         {
-            leftTexture  = SKTexture( image: NSImage( named: "walkLeft.png"  )! )
-            rightTexture = SKTexture( image: NSImage( named: "walkRight.png" )! )
+            leftTexture  = SKTexture( image: NSImage( named: NSImage.Name( "walkLeft.png"  ) )! )
+            rightTexture = SKTexture( image: NSImage( named: NSImage.Name( "walkRight.png" ) )! )
 
             super.init( scene: scene, x: x, y: y, imageFile: "walkRight.png", physic: Physic.player )
 

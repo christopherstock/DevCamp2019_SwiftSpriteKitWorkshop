@@ -513,7 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mayflower.swiftworkshop.DevCamp2019-SwiftSpriteKitWorkshop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -534,7 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mayflower.swiftworkshop.DevCamp2019-SwiftSpriteKitWorkshop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

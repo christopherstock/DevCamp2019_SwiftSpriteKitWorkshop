@@ -15,7 +15,7 @@
         func applicationDidFinishLaunching( _ notification:Notification ) -> Void
         {
             // set app icon
-            NSApplication.shared.applicationIconImage = NSImage( named: "icon.png" )
+            NSApplication.shared.applicationIconImage = NSImage( named: NSImage.Name("icon.png") )
         }
 
         /**
